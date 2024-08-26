@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.register-form {
+    background-color: #f2f2f2;
+    width: 600px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.register {
+    margin-left: 50px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    color: black;
+}
+
+.register p {
+    color: black;
+}
+
+.footer {
+    background-color: #3a679d;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.my-detail-icons a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.my-detail-icons a i {
+    color: white;
+    font-size: 25px;
+}
+
+.my-detail-icons a i:hover {
+    color: #04aa6d;
+    transition: 500ms;
+    transition-timing-function: ease-in-out;
+}
+
+form p {
+    color: black;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: rgb(69, 69, 178);
+}
+
+.left-section {
+    color: white;
+}
+
+.left-heading {
+    margin-left: 8%;
+    margin-top: 35%;
+}
+
+.left-heading h1 {
+    font-size: 50px;
+}
+
+.left-heading p {
+    font-size: 25px;
+}
+
+.image-section {
+    margin-right: 8%;
+    margin-top: 20%;
+}
+
+
+.container-fluid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.carousel-inner {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    height: 700px;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.my-carousel-img h5 {
+    font-size: 25px;
+}
+
+.my-carousel-img {
+    margin: 50px auto;
+    width: 200px;
+
+    /* background-color: rgb(53, 48, 48); */
+}
+
+.carousel-item .my-carousel-img img {
+    width: 100%;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.description-education h5,
+p {
+    text-align: center;
+    color: white;
+}
+
+.heading-title-now,
+.skills {
+    width: 70%;
+    margin: 50px auto;
+}
+
+.education h2 {
+    font-weight: bold;
+}
+
+.education h2::before {
+    content: "|";
+}
+.tab-content{
+   margin: 40px 35% 0 35%;
+   padding:30px;
+    background-color: #f2f2f2;
+}
+
+div.polaroid {
+    width: 284px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+div.rotate_right {
+    float: left;
+    transform: rotate(7deg);
+}
+
+div.rotate_left {
+    float: left;
+    transform: rotate(-8deg);
+}
